@@ -84,7 +84,7 @@ header nav {
 
 header nav a {
     text-decoration: none;
-    color: #b0b0b0;
+    color: darkgreen;
 }
 
 header nav a:hover {
@@ -163,9 +163,16 @@ header .logo {
 
 /* Contact Styles */
 
-.contact p {
-    margin: 15px 0;
+.contact::{
+    border: 2px solid red;
 }
+
+.contact p {
+ 
+    margin: 15px 0;
+
+}
+
 
 /* Footer Styles */
 
@@ -295,5 +302,6 @@ footer {
 
     .contact {
         margin: 20px;
+
     }
 }
